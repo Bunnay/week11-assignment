@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Auth\Events\Logout;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
